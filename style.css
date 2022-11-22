@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    margin-top: 28px;
+    margin-top: 16px;
     margin-left: 16px;
     background: hsl(36, 100%, 99%);  
 }
@@ -20,6 +20,7 @@ body{
     /* top: 28px; */
 }
 .nav-header{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +29,7 @@ body{
     display: none;
   }  
     .img-small {
-      margin-top: 28px;
+      margin-top: 20px;
       margin-left: 16px;
       width: 343px;
       height: 300px;
@@ -106,7 +107,7 @@ body{
     font-size: 15px;
     line-height: 26px;
     width: 290px;
-    color: hsl(236, 13%, 42%);
+    color: hsl(233, 8%, 79%);
     margin-left: 21px;
   }
   .line{
@@ -159,21 +160,28 @@ body{
 }
 @media screen and (min-width:992px){
   .nav-header {
-    width: 1110px;
-    max-width: 1170px;
+    height: 80px;
+    width: 1170px;
+    max-width: 1440px;
     display: flex;
-      justify-content: space-between;
+    justify-content: space-between;
   }
   .nav-header ul{
     justify-content: space-between;
     margin-right: 3rem;
     list-style-type: none;
   }
+  .nav-center{
+    padding-top: 60px;
+    margin-left: 40px;
+  }
   .nav-links li a{
     text-decoration: none;
     text-transform: capitalize;
     color: hsl(236, 13%, 42%);
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
   }
   .nav-links a:hover{
     color:hsl(5, 85%, 63%);
@@ -187,19 +195,21 @@ body{
   .nav-links{
   display: flex;
   width: 431px;
-  padding-left: 1rem;
+  padding-right: 6rem;
   }
   .hero{
     background-image: url(assets/images/image-web-3-desktop.jpg);
     background-size: 730px;
     background-repeat: no-repeat;
-    margin-left: 20px;
-    margin-top: 60px;
+    margin-left: 60px;
+    margin-top: 80px;
   }
   .hero h1{
     padding-top: 19rem;
     font-size: 56px;
     line-height: 56px;
+    margin-left: -10px;
+    width: 300px;
   }
   .hero-info{
     width: 730px;
@@ -208,19 +218,21 @@ body{
   }
   .hero-p{
     padding-top: 20rem;
-    width: 300px;
-    margin-right: 80px;
+    width: 200px;
+    margin-right: 250px;
     line-height: 26px;
+    
   }
 .container{
   display: grid;
   grid-template-columns: 730px 350px;
 }
 .project-info{
-  margin-top: 60px;
+  margin-top: 80px;
   height: 511px;
 }
 .project-container{
+  margin-left: 60px;
   width: 1110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -234,10 +246,13 @@ h4{
 }
 p{
   color: hsl(236, 13%, 42%);
-  
 }
 .btn{
   margin-top: 20px;
+}
+.logo{
+  width:64px;
+  height:40px
 }
 }
     
