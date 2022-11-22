@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@500;700;800;900&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&family=Six+Caps&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(36, 100%, 99%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar{
+    margin-top: 28px;
+    margin-left: 16px;
+    background: hsl(36, 100%, 99%);  
+}
+.nav-center{
+   width: 343px;
+    height: 28px;
+    max-width: 1170;
+    /* top: 28px; */
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .nav-links{
+    display: none;
+  }  
+    .img-small {
+      margin-top: 28px;
+      margin-left: 16px;
+      width: 343px;
+      height: 300px;
+    }
+    .logo {
+      width: 44px;
+      height: 28px;
+    }
+.menu{
+  width: 40px;
+  height: 17px;
+}
+  h1{
+    margin-left: 16px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px; 
+  }
+  .hero p{
+    width: 343px;
+    margin-left: 16px;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .btn{
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    width: 185px;
+    height: 48px;
+    margin-left: 1rem;
+    border: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4.375px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  .btn:hover{
+    background: black;
+  }
+  .project-info{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 343px;
+    background: hsl(240, 100%, 5%);
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+  }
+  h1{
+    font-size: 48px;
+    line-height: 56px;
+    width: 350px;
+    height: 182px;
+    padding-bottom: 2rem;
+  }
+  h2{
+    padding-top: 1rem;
+    color: #E9AA52;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  h3{
+    margin-left: 20px;
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  h3:hover{
+    color:#E9AA52;
+  }
+  .project-info p{
+    height: 52px;
+    font-size: 15px;
+    line-height: 26px;
+    width: 290px;
+    color: hsl(236, 13%, 42%);
+    margin-left: 21px;
+  }
+  .line{
+    width: 280px;
+    height: 0.1rem;
+    background-color: hsl(236, 13%, 42%);
+    margin-left: 20px;
+  }
+  .project-container{
+    margin-left: 16px;
+    height: 451px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .project-descriptions{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+.image img{
+  width: 100px;
+  height: 129px;
+  
+}
+.info{
+  margin-left: 16px;
+  
+}
+.number{
+  font-size: 32px;
+  top: 0;
+  color: #C5C6CE;
+  line-height: 32px;
+  font-weight: 700;
+}
+  .info h4{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .info h4:hover{
+    color: hsl(5, 85%, 63%);
+  }
+
+.info p{
+  font-size: 15px;
+  margin-left: 0;
+  width: 210px;
+  text-transform: capitalize;
+}
+@media screen and (min-width:992px){
+  .nav-header {
+    width: 1110px;
+    max-width: 1170px;
+    display: flex;
+      justify-content: space-between;
+  }
+  .nav-header ul{
+    justify-content: space-between;
+    margin-right: 3rem;
+    list-style-type: none;
+  }
+  .nav-links li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+  }
+  .nav-links a:hover{
+    color:hsl(5, 85%, 63%);
+  }
+  .menu{
+    display: none;
+  }
+  .img-small{
+    display: none;
+  }
+  .nav-links{
+  display: flex;
+  width: 431px;
+  padding-left: 1rem;
+  }
+  .hero{
+    background-image: url(assets/images/image-web-3-desktop.jpg);
+    background-size: 730px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  .hero h1{
+    padding-top: 19rem;
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .hero-info{
+    width: 730px;
+    display: grid;
+    grid-template-columns: 1fr auto ;
+  }
+  .hero-p{
+    padding-top: 20rem;
+    width: 300px;
+    margin-right: 80px;
+    line-height: 26px;
+  }
+.container{
+  display: grid;
+  grid-template-columns: 730px 350px;
+}
+.project-info{
+  margin-top: 60px;
+  height: 511px;
+}
+.project-container{
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+h2{
+  font-size: 40px;
+  line-height: 40px;
+}
+h4{
+  padding-top: 1rem;
+}
+p{
+  color: hsl(236, 13%, 42%);
+  
+}
+.btn{
+  margin-top: 20px;
+}
+}
+    
+   
