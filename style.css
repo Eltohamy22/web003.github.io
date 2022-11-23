@@ -55,6 +55,7 @@ body{
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
+    
   }
   .btn{
     background: hsl(5, 85%, 63%);
@@ -73,8 +74,8 @@ body{
     background: black;
   }
   .project-info{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: rem;
+    
     width: 343px;
     background: hsl(240, 100%, 5%);
     padding-bottom: 1rem;
@@ -158,10 +159,10 @@ body{
   width: 210px;
   text-transform: capitalize;
 }
-@media screen and (min-width:992px){
+@media screen and (min-width:1170px){
   .nav-header {
     height: 80px;
-    width: 1170px;
+    width: 1440px;
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
@@ -195,12 +196,16 @@ body{
   .nav-links{
   display: flex;
   width: 431px;
-  padding-right: 6rem;
+  padding-right: 7rem;
   }
   .hero{
     background-image: url(assets/images/image-web-3-desktop.jpg);
-    background-size: 730px;
-    background-repeat: no-repeat;
+    width: 920px;
+    height: 300px;
+    background-size: 1100px;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-repeat: no-repeat; */
     margin-left: 60px;
     margin-top: 80px;
   }
@@ -212,14 +217,15 @@ body{
     width: 300px;
   }
   .hero-info{
-    width: 730px;
+    
+    width: 500px;
     display: grid;
-    grid-template-columns: 1fr auto ;
+    grid-template-columns: 1fr 1fr;
   }
   .hero-p{
     padding-top: 20rem;
     width: 200px;
-    margin-right: 250px;
+    margin-left: 170px;
     line-height: 26px;
     
   }
@@ -228,12 +234,14 @@ body{
   grid-template-columns: 730px 350px;
 }
 .project-info{
+  /* width: 400px; */
+  margin-left: 280px;
   margin-top: 80px;
   height: 511px;
 }
 .project-container{
   margin-left: 60px;
-  width: 1110px;
+  width: 1440px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
